@@ -22,3 +22,12 @@ if age < 18:
 else:
     print('You can drive {0}'.format(name))
     print('Please drive carefully\n')    
+
+#using elif
+if age < 18:
+    print('You cannot drive.\nYou need to wait for {} years\n'.format(18-age))
+elif age > 80 :
+    print("You are too old to drive")
+else:
+    print('You can drive {0}'.format(name))
+    print('Please drive carefully\n')   
