@@ -3,7 +3,7 @@ parrot = 'Norwegian Blue'
 for x in parrot:
     print(x, end='')
 
-numbers = '234;23423[424/2467.345>5;53453'
+numbers = input('\nEnter series of numbers with separators : ')
 
 separators = ''
 # we are separating the non numeric characters from the string and storing it in separators string
