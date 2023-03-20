@@ -19,3 +19,7 @@ while True :
         print("Please enter h,l or c")
 
     guesses = guesses + 1
+    #this is the longhand version, the augmented assignment version of the above statement would be like :
+    # guesses+=1, here the value of 'guesses' will be evaluated only once. Both these statements are different only in
+    #python, whereas in langs like cpp and java they are the same
+    
