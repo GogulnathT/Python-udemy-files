@@ -17,11 +17,12 @@ for item in random:
     # in the list; however it may not be the most efficient way to look up
     # the index of an item in the list incase of large lists
 
-#index of valus in lists can also be obtained using the enumerate function;
+#index of values in lists can also be obtained using the enumerate function;
 #it is a built in function which returns an enumerate object when a list type
 #is passed, which contains the value and index
-print('obtaining index using the enumrate function')
+print('obtaining index using the enumerate function')
 for number,item in enumerate(random) : 
     print('{0} : {1}'.format(number, item))
 #here in the for loop we are using 2 variables, if the object we are iterating 
 #over contains more than one value, 2 or more variables can be used
+
