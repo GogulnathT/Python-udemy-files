@@ -15,7 +15,7 @@ print(capitals.items())
 for key, value in capitals.items():
     print(key, value)
 
-capitals.update({"Germany":"Berlin"}) #can be used to update existing values of key value pairs
+capitals.update({"Germany":"Berlin"}) #can be used to update existing values of key value pairs or add new
 print(capitals.items())
 
 capitals.pop('Germany')
