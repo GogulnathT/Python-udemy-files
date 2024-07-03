@@ -4,5 +4,8 @@
 # print(x)
 # print(y)
 
-for i in range(10,0,-1):
-    print(i)
+# for i in range(10,0,-1):
+#     print(i)
+
+l = [3,4,"cadillac"]
+print(l)
