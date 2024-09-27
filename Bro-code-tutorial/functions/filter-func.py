@@ -11,6 +11,6 @@ friends = [("Brandon",20),
 
 age = lambda data: data[1]>=18
 
-drinking_friends = list(filter(age, friends))
+drinking_friends = list(filter(age, friends)) #casting the filter object to list object
 
 print(drinking_friends)

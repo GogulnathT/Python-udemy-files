@@ -1,11 +1,9 @@
-# x = 3
-# y = x 
-# y += 1
-# print(x)
-# print(y)
+capitals = {"USA":"Washington DC",
+            "India":"New Delhi",
+            "France":"Paris",
+            "UK":"London"}
+print(type(capitals))
+print(type(capitals.items()))
 
 # for i in range(10,0,-1):
 #     print(i)
-
-l = [3,4,"cadillac"]
-print(l)
